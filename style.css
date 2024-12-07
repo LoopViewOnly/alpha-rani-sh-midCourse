@@ -1,0 +1,86 @@
+
+
+h1 {color:blue ; 
+
+
+}
+
+p {color:darkcyan;
+
+
+}
+
+
+body {
+  background-color:black 
+}
+
+
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+
+img {
+            width: 300px;
+            transition: width 0.5s ease;
+        }
+
+        img:hover {
+            width: 500px;
+        }
+ 
+        h1 {
+            text-align: center;
+        }
+
+        .image-container {
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center;   /* Centers vertically */
+      height: 300px;         /* Set a height for the container */
+      border: 1px solid #ccc; /* Optional for visualization */
+      margin: 20px;          /* Optional spacing */
+    }
+
+    
+    .video-container {
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center;   /* Centers vertically */
+      height: 300px;         /* Set a height for the container */
+      border: 1px solid #ccc; /* Optional for visualization */
+      margin: 20px;          /* Optional spacing */
+    }
+
+    body {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
